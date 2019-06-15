@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Black Wallet 黑錢包</title>
+	<link rel="icon" href="images/logo.ico" type="image/x-icon">
+	<style type="text/css">
+		.logo {
+			border-style: solid;
+			border-width: 14px;
+			width: 500px;
+			height: 500px;
+			text-align: center;
+			font-size: 800%;
+			padding-left: 12px;
+		}
+		.button {
+			border-style: solid;
+			border-width: 6px;
+			height: 60px;
+			text-align: center;
+			font-size: 200%;
+			font-family: Microsoft JhengHei;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		.button:hover {
+    		background-color: #888888;          
+		}
+	</style>
+	<script type="text/javascript" src="library/func/func.js"></script>
+</head>
+<body onload="unfade(document.getElementById('all'))" style="background-color: #DDDDDD;">
+	<table id="all" align="center" style="border-spacing: 20px; margin-top: 100px; padding-right: 30px;">
+			<td class="logo" colspan="3">B$W<br><font style="font-size: 40px;font-family: Microsoft JhengHei;">黑錢包虛擬貨幣</font></td>
+		<tr>
+			<td id="Login" class="button" onclick="location.href='Login.php'">登入</td>
+			<td></td>
+			<td id="SignUp" class="button" onclick="location.href='SignUp.php'">註冊</td>
+		</tr>
+	</table>
+</body>
+</html>
